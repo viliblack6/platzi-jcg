@@ -5,6 +5,7 @@ import './global.css';
 
 // import Badge from './components/Badge';
 import BadgeNew from './pages/BadgeNew';
+import Badges from './pages/Badges';
 
 // const name = "Javier CG";
 // const element = (<div>
@@ -23,4 +24,4 @@ const container = document.getElementById('app');
 //     twitter="JCG"
 //     />, container);
 
-ReactDOM.render(<BadgeNew />, container);
+ReactDOM.render(<Badges />, container);
