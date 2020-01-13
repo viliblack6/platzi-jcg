@@ -4,8 +4,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './global.css';
 
 // import Badge from './components/Badge';
-import BadgeNew from './pages/BadgeNew';
-import Badges from './pages/Badges';
+// import BadgeNew from './pages/BadgeNew';
+// import Badges from './pages/Badges';
+import App from './components/App';
 
 // const name = "Javier CG";
 // const element = (<div>
@@ -24,4 +25,5 @@ const container = document.getElementById('app');
 //     twitter="JCG"
 //     />, container);
 
-ReactDOM.render(<Badges />, container);
+//ReactDOM.render(<Badges />, container);
+ReactDOM.render(<App />, container);
