@@ -27,6 +27,7 @@ const api = {
       return callApi('/badges');
     },
     create(badge) {
+      // throw new Error("Error dsa");
       return callApi(`/badges`, {
         method: 'POST',
         body: JSON.stringify(badge),
